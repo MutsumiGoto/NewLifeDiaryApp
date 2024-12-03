@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="23G93" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DeliveryBaby" representedClassName="DeliveryBaby" syncable="YES" codeGenerationType="class">
+        <attribute name="birthday" optional="YES" attributeType="String"/>
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="chest" optional="YES" attributeType="String"/>
+        <attribute name="head" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="String"/>
+        <attribute name="hour" optional="YES" attributeType="String"/>
+        <attribute name="milk" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="test" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeliveryMother" representedClassName="DeliveryMother" syncable="YES" codeGenerationType="class">
+        <attribute name="ampm" optional="YES" attributeType="String"/>
+        <attribute name="bleeding" optional="YES" attributeType="String"/>
+        <attribute name="btrans" optional="YES" attributeType="String"/>
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="delivery" optional="YES" attributeType="String"/>
+        <attribute name="deliverydate" optional="YES" attributeType="String"/>
+        <attribute name="labor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="ml" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="othertype" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="typenotes" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FetusImage" representedClassName="FetusImage" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="fimage" optional="YES" attributeType="Binary"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Immunization" representedClassName="Immunization" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="dose" optional="YES" attributeType="String"/>
+        <attribute name="lot" optional="YES" attributeType="String"/>
+        <attribute name="manuf" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reaction" optional="YES" attributeType="String"/>
+        <attribute name="site" optional="YES" attributeType="String"/>
+        <attribute name="vaccinedate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MotherHealth" representedClassName="MotherHealth" syncable="YES" codeGenerationType="class">
+        <attribute name="bpbottom" optional="YES" attributeType="String"/>
+        <attribute name="bptop" optional="YES" attributeType="String"/>
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="String"/>
+        <attribute name="edema" optional="YES" attributeType="String"/>
+        <attribute name="fhb" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="uglucose" optional="YES" attributeType="String"/>
+        <attribute name="uprotein" optional="YES" attributeType="String"/>
+        <attribute name="waist" optional="YES" attributeType="String"/>
+        <attribute name="weeks" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="String"/>
+    </entity>
+</model>
